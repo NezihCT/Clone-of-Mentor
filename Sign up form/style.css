@@ -6,68 +6,119 @@
     --Grayish-Blue: hsl(246, 25%, 77%);
     --Font: "Poppins", "sans-serif";
   }
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: var(--Font);
-}
   
-
-body {
+  body{
+    background: url(./images/bg-intro-desktop.png);
     background-color: #ff7a7a;
-    background-image: url(./images/bg-intro-desktop.png);
-}
+  }
   
-h1{
+  #leftSide {
     font-family: var(--Font);
-    font-weight: bolder;
-}
-
-.input0{
-    font-family: var(--Font);
-    height: 11% ;
-    display: flex;
-    flex-direction: column;
-    border: solid 1px gainsboro;
-    margin-bottom: 1.8rem;
+  }
+  
+  #leftSide h1 {
+    color: #f6ffff;
+    font-weight: 700;
+  }
+  
+  #leftSide p {
+    color: #f7c5c5;
+    font-weight: 650;
+  }
+  
+  #button {
+    background-color: #6054a6;
     border-radius: 8px;
-}
-.input1{
+    margin-top:3rem ;
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 6px 0px 0px rgba(0, 0, 0, 0.24);
+    padding: 12px 20px 12px 26px;
+  }
+  
+  #buttonForm{
     font-family: var(--Font);
-    height: 11%;
-    display: flex;
-    flex-direction: column;
-    border: solid 1px gainsboro;
-    margin-bottom: 1.8rem;
+  }
+  
+  #button p {
+    text-align: center;
+    font-size: 15px;
+    padding: 24px 24px 24px 24px;
+    vertical-align:middle ;
+    display:contents;
+  }
+  
+  #inputForm {
+    padding-top: 35px;
+    padding-bottom: 25px;
+    height: 436px;
     border-radius: 8px;
-}
-.input2{
-    font-family: var(--Font);
-    height: 11%;
-    display: flex;
-    flex-direction: column;
-    border: solid 1px gainsboro;
-    margin-bottom: 1.8rem;
-    border-radius: 8px;
-}
-.input3{
-    font-family: var(--Font);
-    height: 11%;
-    display: flex;
-    flex-direction: column;
-    border: solid 1px gainsboro;
-    margin-bottom: 1.8rem;
-    border-radius: 8px;
-}
-
-.terms-text{
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 6px 0px 0px rgba(0, 0, 0, 0.24);
+  }
+  
+  #name{
+      font-family: var(--Font);
+      padding: 12px 20px 12px 26px;
+      border: solid 1px gainsboro;
+      margin-bottom: 1.8rem;
+      border-radius: 6px; 
+      font-weight:600;
+      font-size:0.91em;
+  }
+  #lastName{
+      font-family: var(--Font);
+      padding: 12px 20px 12px 26px;
+      border: solid 1px gainsboro;
+      margin-bottom: 1.8rem;
+      border-radius: 6px; 
+      font-weight:600;
+      font-size:0.91em;
+  }
+  #mail{
+      font-family: var(--Font);
+      
+      padding: 12px 20px 12px 26px;
+      border: solid 1px gainsboro;
+      margin-bottom: 1.8rem;
+      border-radius: 6px;
+      font-weight:600;
+      font-size:0.91em;
+  }
+  #password{
+      font-family: var(--Font);
+      padding: 12px 20px 12px 26px;
+      border: solid 1px gainsboro;
+      margin-bottom: 1.8rem;
+      border-radius: 6px; 
+      font-weight:600;
+      font-size:0.91em;
+      margin-right: 30%;
+  }
+  
+  #buttonFree{
+    background-color:#3ACC8B; 
+    font-family: var(--Font); 
+    color: #F6FFFF;
+    font-weight:600;
+    font-size:0.91em;
+    padding: 12px 20px 12px 26px;
+  }
+  
+  .termsText{
     transition: 2s ease 0.5s;
     margin-top: 4px;
     text-align: center;
-    color: var(--Grayish-Blue);
+    color:var(--Grayish-Blue);
     font-style: normal;
     min-width: 100%;
-    font-weight: x-small;
-}
+    font-weight: 10px;
+    font-size:10px;
+  }
+  
+  #lastOne{
+    color: var(--Red);
+  }
+
+  
