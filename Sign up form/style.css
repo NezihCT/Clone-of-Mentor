@@ -68,6 +68,8 @@
       border-radius: 6px; 
       font-weight:600;
       font-size:0.91em;
+      outline-color: #9997a5;
+      color: #555353;
   }
   #lastName{
       font-family: var(--Font);
@@ -77,16 +79,19 @@
       border-radius: 6px; 
       font-weight:600;
       font-size:0.91em;
+      outline-color: #9997a5;
+      color: #555353;
   }
   #mail{
       font-family: var(--Font);
-      
       padding: 12px 20px 12px 26px;
       border: solid 1px gainsboro;
       margin-bottom: 1.8rem;
       border-radius: 6px;
       font-weight:600;
       font-size:0.91em;
+      outline-color: #9997a5;
+      color: #555353;
   }
   #password{
       font-family: var(--Font);
@@ -96,7 +101,8 @@
       border-radius: 6px; 
       font-weight:600;
       font-size:0.91em;
-      margin-right: 30%;
+      outline-color: #9997a5;
+      color: #555353;
   }
   
   #buttonFree{
@@ -113,8 +119,6 @@
     margin-top: 4px;
     text-align: center;
     color:var(--Grayish-Blue);
-    font-style: normal;
-    min-width: 100%;
     font-weight: 10px;
     font-size:10px;
   }
