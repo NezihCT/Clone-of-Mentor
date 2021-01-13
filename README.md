@@ -1,2 +1,1 @@
-# Sign-up-form
-Designed by Front-End-Mentor
+This sign up form designed by Front-End-Mentor and codded by me.
